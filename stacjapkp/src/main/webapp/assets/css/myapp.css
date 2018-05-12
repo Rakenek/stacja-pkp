@@ -4,14 +4,26 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
 
+
+html{
+	height:100%;
+}
+
+
 body {
   padding-top: 54px;
+  height:100%;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+
+footer{
+	padding:7px;
+	height:40px;
 }
 
 .business-header {
@@ -27,3 +39,37 @@ body {
 .card {
   height: 100%;
 }
+
+
+.wrapper{
+	min-height:100%;
+	position:relative;
+}
+
+.content{
+	padding-bottom:60px;
+	
+}
+
+
+.footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	
+}
+
+.container{
+	width:100%;
+	text-align:center;
+}
+
+.annot1
+{
+	text-align:left;
+}
+
+
+
+
+
